@@ -12,6 +12,7 @@
 
  - [x] Read input from a capture file with `--pcap`.
  - [x] Read packets from live wifi capture.
+ - [x] Filter by device address with `--device [addr]`.
 
 ## Usage
 
