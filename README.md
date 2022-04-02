@@ -16,7 +16,23 @@
 ## Usage
 
 ```
+$ ./WifiListAPProbeRequests.py -h
+WifiListAPProbeRequests v1.1 - by @podalirius_
 
+usage: WifiListAPProbeRequests.py [-h] [-v] [-d DEVICE] [-l LOGFILE] (-p PCAP | -i INTERFACE)
+
+Monitor 802.11 probe requests from a capture file or network sniffing!
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --verbose         Verbose mode
+  -d DEVICE, --device DEVICE
+                        Device address filter.
+  -l LOGFILE, --logfile LOGFILE
+                        Log output to file.
+  -p PCAP, --pcap PCAP  Capture file to read packets from.
+  -i INTERFACE, --interface INTERFACE
+                        Interface to listen on.
 ```
 
 ## Demonstration
