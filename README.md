@@ -1,9 +1,9 @@
-# WifiListAPProbeRequests
+# WifiListProbeRequests
 
 <p align="center">
     Monitor 802.11 probe requests from a capture file or network sniffing!
     <br>
-    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/p0dalirius/WifiListAPProbeRequests">
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/p0dalirius/WifiListProbeRequests">
     <a href="https://twitter.com/intent/follow?screen_name=podalirius_" title="Follow"><img src="https://img.shields.io/twitter/follow/podalirius_?label=Podalirius&style=social"></a>
     <br>
 </p>
@@ -16,10 +16,10 @@
 ## Usage
 
 ```
-$ ./WifiListAPProbeRequests.py -h
-WifiListAPProbeRequests v1.1 - by @podalirius_
+$ ./WifiListProbeRequests.py -h
+WifiListProbeRequests v1.1 - by @podalirius_
 
-usage: WifiListAPProbeRequests.py [-h] [-v] [-d DEVICE] [-l LOGFILE] (-p PCAP | -i INTERFACE)
+usage: WifiListProbeRequests.py [-h] [-v] [-d DEVICE] [-l LOGFILE] (-p PCAP | -i INTERFACE)
 
 Monitor 802.11 probe requests from a capture file or network sniffing!
 
@@ -37,7 +37,7 @@ optional arguments:
 
 ## Demonstration
 
-
+![](./.github/example.png)
 
 ## Contributing
 

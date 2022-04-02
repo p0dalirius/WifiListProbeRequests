@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# File name          : WifiListAPProbeRequests.py
+# File name          : WifiListProbeRequests.py
 # Author             : Podalirius (@podalirius_)
 # Date created       : 1 Apr 2022
 
@@ -11,7 +11,7 @@ from scapy.layers.dot11 import Dot11ProbeReq, Dot11Elt, Dot11
 
 
 def parseArgs():
-    print("WifiListAPProbeRequests v1.1 - by @podalirius_\n")
+    print("WifiListProbeRequests v1.1 - by @podalirius_\n")
 
     parser = argparse.ArgumentParser(description="Monitor 802.11 probe requests from a capture file or network sniffing!")
     parser.add_argument("-v", "--verbose", dest="verbose", action="store_true", default=False, help="Verbose mode")
