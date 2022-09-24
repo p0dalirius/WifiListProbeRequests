@@ -1,8 +1,6 @@
 ![](./.github/banner.png)
 
 <p align="center">
-    A python script to scan for Apache Tomcat server vulnerabilities.
-    <br>
     Monitor 802.11 probe requests from a capture file or network sniffing!
     <br>
     <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/p0dalirius/WifiListProbeRequests">
