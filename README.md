@@ -20,7 +20,7 @@
 
 ```
 $ ./WifiListProbeRequests.py -h
-WifiListProbeRequests v1.1 - by @podalirius_
+WifiListProbeRequests v1.1 - by Remi GASCOU (Podalirius)
 
 usage: WifiListProbeRequests.py [-h] [-v] [-d DEVICE] [-l LOGFILE] (-p PCAP | -i INTERFACE)
 

@@ -11,7 +11,7 @@ from scapy.layers.dot11 import Dot11ProbeReq, Dot11Elt, Dot11
 
 
 def parseArgs():
-    print("WifiListProbeRequests v1.1 - by @podalirius_\n")
+    print("WifiListProbeRequests v1.1 - by Remi GASCOU (Podalirius)\n")
 
     parser = argparse.ArgumentParser(description="Monitor 802.11 probe requests from a capture file or network sniffing!")
     parser.add_argument("-v", "--verbose", dest="verbose", action="store_true", default=False, help="Verbose mode")
