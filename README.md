@@ -45,3 +45,20 @@ optional arguments:
 ## Contributing
 
 Pull requests are welcome. Feel free to open an issue if you want to add other features.
+
+## Installation
+
+Clone the repository and install dependencies:
+
+git clone https://github.com/p0dalirius/WifiListProbeRequests.git
+
+cd WifiListProbeRequests
+
+## Fixes
+
+## Python3 is System-Wide on Debian 12 and 13 and so On 
+      (So Use python3-scapy same as scapy)
+
+sudo apt install ethtool hwloc  ieee-data  rfkill aircrack-ng python3 python3-scapy
+
+
